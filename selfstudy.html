@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FORMS</title>
+        <style>
+            main {
+                background-image: url(cat.jpeg);
+            }
+            textarea {
+                
+                background-image: url(cat.jpeg);
+            }
+            .list1 {
+                font-family: 'Courier New', Courier, monospace;
+
+            }
+
+        </style>
+    </head>
+    <body>
+        <main>
+
+        <H1>This is a Form</H1>
+        Name: <input type="text" name="Name" id="Name" placeholder="Type in your name"/> <br>
+        Address 1: <input type="address" name="Address1" id="Address1" placeholder="Type in your address"/> <br>
+        Address 2: <input type="address" name="Address2" id="Address2" placeholder="Type in your 2nd address"/><br>
+        Contact Number: <input type="number" class="Contact" id="Contact" placeholder="key in your age" value="29"/> <br>
+        Pick up Type : <br> 
+        <input type="radio" name="type" id="self"/><label for="self">Self-pickup</label><input type="radio" name="type" id="pickup"/><label for="pickup">Delivery</label>
+        <br>
+        Delivery Timing:
+        <br>
+        <input type="radio" name="timing" id="5pm-6pm"/> <label for="5pm-6pm">5pm-6pm</label> <input type="radio" name="timing" id="6pm-7pm"/><label for="6pm-7pm">6pm-7pm</label>
+        <input type="radio" name="timing" id="8pm-9pm"/> <label for="8pm-9pm">8pm-9pm</label>
+        <br>
+        Additional Remarks<br>
+        <textarea class="list1" name="feedback" id="feedback" rows="30" cols="50" placeholder="type in any aditional Remarks"></textarea><br>
+        <input type="submit" name="submit" id="submit" placeholder="submit now"/>
+
+    
+        </main>
+    </body>
+</html>
